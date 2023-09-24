@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_color": "#0052FF",
+        "campaign_title": "Medical Supplies for Rural Clinics",
+        "price": 7500,
+        "description": "Help us provide essential medical supplies to rural clinics in underserved areas. Your contribution will make a significant impact on improving healthcare access for those in need.",
+        "image_url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": 2,
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_color": "#FF444A",
+        "campaign_title": "Scholarships for Underprivileged Students",
+        "price": 6000,
+        "description": "Support bright but underprivileged students in pursuing their dreams of higher education. Your donation will provide scholarships to deserving students who lack financial means.",
+        "image_url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": 3,
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_color": "#79C23F",
+        "campaign_title": "Warm Winter Coats for the Homeless",
+        "price": 4000,
+        "description": "Help keep the homeless warm during the cold winter months by contributing to our coat distribution program. Your support will provide warm clothing to those in need.",
+        "image_url": "https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": 4,
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F871477F",
+        "text_color": "#F87147",
+        "campaign_title": "Food Aid for Low-Income Families",
+        "price": 3000,
+        "description": "Join us in our mission to combat hunger in low-income communities. Your donation will help provide nutritious meals and food assistance to families in need.",
+        "image_url": "https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": 5,
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_color": "#0052FF",
+        "campaign_title": "Mobile Medical Clinics for Remote Areas",
+        "price": 9000,
+        "description": "Bring healthcare to remote areas with our mobile medical clinics. Your donation will help provide medical services and support to underserved communities.",
+        "image_url": "https://images.unsplash.com/photo-1636202339022-7d67f7447e3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+    },
+    {
+        "id": 6,
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_color": "#FF444A",
+        "campaign_title": "Coding Workshops for Kids",
+        "price": 3500,
+        "description": "Empower the next generation with coding skills. Support our coding workshops for kids and open up new opportunities for young learners.",
+        "image_url": "https://images.unsplash.com/photo-1617450365226-9bf28c04e130?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": 7,
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_color": "#79C23F",
+        "campaign_title": "School Uniforms for Underprivileged Children",
+        "price": 5500,
+        "description": "Ensure that underprivileged children have access to school uniforms. Your donation will help kids attend school with confidence.",
+        "image_url": "https://images.unsplash.com/photo-1636320805687-7559c1192151?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": 8,
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F871477F",
+        "text_color": "#F87147",
+        "campaign_title": "Meals for the Elderly in Nursing Homes",
+        "price": 3200,
+        "description": "Provide nourishing meals for elderly residents in nursing homes. Your support will improve their quality of life and well-being.",
+        "image_url": "https://images.unsplash.com/photo-1607977027972-e2aae2b5b1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80"
+    },
+    {
+        "id": 9,
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_color": "#0052FF",
+        "campaign_title": "Support for Cancer Patients",
+        "price": 11000,
+        "description": "Offer financial and emotional support to cancer patients and their families. Your donation will make their journey a little easier.",
+        "image_url": "https://images.unsplash.com/photo-1566512410641-796f4efc3bb9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": 10,
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_color": "#FF444A",
+        "campaign_title": "Books for Rural Libraries",
+        "price": 2800,
+        "description": "Help enrich rural libraries with educational books. Your contribution will encourage learning and reading in remote areas.",
+        "image_url": "https://images.pexels.com/photos/36785/soldier-military-uniform-american.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 11,
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_color": "#79C23F",
+        "campaign_title": "Shoes for School Kids",
+        "price": 4200,
+        "description": "Provide durable shoes to school kids in need. Your support will ensure they can walk comfortably to school every day.",
+        "image_url": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 12,
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F871477F",
+        "text_color": "#F87147",
+        "campaign_title": "Community Food Pantry",
+        "price": 3800,
+        "description": "Stock our community food pantry and help families facing food insecurity. Your donation will provide essential groceries to those in your community.",
+        "image_url": "https://images.pexels.com/photos/6994965/pexels-photo-6994965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]
