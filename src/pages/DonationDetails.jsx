@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import swal from "sweetalert";
 
@@ -48,7 +49,7 @@ const DonationDetails = () => {
       >
         <div className="bg-black py-12 px-6 bg-opacity-60 w-full">
           <button onClick={handleAddToDonation} className={` ${text_color[1]} text-white px-12 border-[0px] py-3 rounded-lg hover:scale-95 duration-200`}>
-            Donate ${price}
+            {`Donate $${price}`}
           </button>
         </div>
       </div>
