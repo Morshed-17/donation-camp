@@ -6,7 +6,7 @@ const MainLayout = () => {
     return (
         <div className="font-family-inter">
             <Header/>
-            <div className="max-w-[1320px] px-[40px] mx-auto">
+            <div>
             <Outlet/>
             </div>
         </div>

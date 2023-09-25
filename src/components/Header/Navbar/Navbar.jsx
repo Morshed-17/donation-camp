@@ -3,8 +3,8 @@ import Logo from "../Logo/Logo";
 
 const Navbar = () => {
   return (
-    <nav className="max-w-[1320px] md:px-[40px] mx-auto flex justify-between items-center mt-8">
-      <div className="navbar bg-base-100">
+    <nav className="max-w-[1320px] md:px-[40px] mx-auto flex justify-between items-center mt-8 ">
+      <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
