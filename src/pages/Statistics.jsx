@@ -18,15 +18,10 @@ const Statistics = () => {
   const [myTotal, setMyTotal] = useState(0);
 
   useEffect(() => {
-    const totalDonations = donations?.reduce(
-      (accum, currentValue) => accum + currentValue.price,
-      0
-    );
+    const totalDonations = donations.length
+    ;
     setTotal(totalDonations);
-    const myTotalDonations = myDonations?.reduce(
-      (accum, currentValue) => accum + currentValue.price,
-      0
-    );
+    const myTotalDonations = myDonations?.length || 0
     setMyTotal(myTotalDonations);
   }, []);
 
@@ -40,7 +35,7 @@ const Statistics = () => {
     { key: "Total Donations", value: donationsPercent },
     { key: "Your Donations", value: myDonationsPercent },
   ];
-  const COLORS =['#e3a51a ', '#aaac84']
+  const COLORS =['#FF444A ', '#00C49F']
 
 
   const RADIAN = Math.PI / 180;
@@ -57,8 +52,10 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 };
 
   return (
-    <div className="text- font-semibold flex justify-center items-center h-[70vh]">
-      <ResponsiveContainer>
+
+    <div className="text- font-semibold flex flex-col justify-center items-center h-[60vh]">
+     <div>
+     <ResponsiveContainer width={600} height={400}>
         <PieChart width={400} height={400}>
           <Pie 
             data={data}
@@ -77,9 +74,27 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 
           </Pie>
           <Tooltip />
-          <Legend />
+          
         </PieChart>
+        
       </ResponsiveContainer>
+      <div className="flex justify-center">
+        <div className="flex flex-col md:flex-row justify-center gap-6">
+        <div className="flex items-center gap-2" >
+          <p>Your Donation</p>
+          <div className="bg-[#00C49F] h-2 w-16 rounded-sm">
+
+          </div>
+        </div>
+        <div className=" flex items-center gap-2">
+          <p>Total Donation</p>
+          <div className="bg-[#FF444A] h-2 w-16 rounded-sm"></div>
+        </div>
+        </div>
+      </div>
+     </div>
+      
+    
     </div>
   );
 };
