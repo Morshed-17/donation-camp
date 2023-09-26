@@ -31,7 +31,7 @@ const Banner = (props) => {
                   onChange={handleChange}
                 />
                 <button type="submit" className="btn bg-primaryRed text-white btn-error absolute top-0 right-0 rounded-l-none">
-                  Subscribe
+                  Search
                 </button>
               </div>
             </fieldset>

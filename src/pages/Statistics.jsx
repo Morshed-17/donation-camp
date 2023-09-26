@@ -37,7 +37,7 @@ const Statistics = () => {
   const donationsPercent = (100* total) / (total + myTotal)
   const myDonationsPercent = (100* myTotal) / (total + myTotal)
   const data = [
-    { key: "Donatinos", value: donationsPercent },
+    { key: "Total Donations", value: donationsPercent },
     { key: "Your Donations", value: myDonationsPercent },
   ];
   const COLORS =['#e3a51a ', '#aaac84']
