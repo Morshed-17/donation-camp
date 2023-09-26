@@ -1,4 +1,15 @@
-const Banner = () => {
+import { useState } from "react";
+
+const Banner = (props) => {
+  const [search, setSearch] = useState("")
+  const handleChange = e => {
+    setSearch(e.target.value)
+  }
+  const handleSubmit = e => {
+    e.preventDefault()
+    props.onSubmit(search)
+
+  }
   
   return (
 
@@ -9,16 +20,17 @@ const Banner = () => {
           <h1 className="text-center text-2xl lg:text-5xl  font-bold">
             I Grow By Helping People In Need
           </h1>
-          <form>
+          <form onSubmit={handleSubmit}>
             <fieldset className="form-control flex">
               <div className="relative lg:w-[470px]">
                 <input
                   type="text"
                   placeholder="Search Here"
                   className="input input-bordered w-full  pr-16"
-                  name="search"
+                  value={search}
+                  onChange={handleChange}
                 />
-                <button className="btn bg-primaryRed text-white btn-error absolute top-0 right-0 rounded-l-none">
+                <button type="submit" className="btn bg-primaryRed text-white btn-error absolute top-0 right-0 rounded-l-none">
                   Subscribe
                 </button>
               </div>
