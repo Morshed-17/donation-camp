@@ -9,7 +9,7 @@ const Cards = ({ cards, search }) => {
         
         {
             cards.filter((card => {
-                return search === '' ? card : card.category.toLowerCase().includes(search.toLowerCase())
+                return search === '' ? card : card.category.toLowerCase().includes(search.toLowerCase().trim())
             })).map((card) => (
           <Card key={card.id} card={card} />
         ))}
