@@ -29,8 +29,8 @@ const Statistics = () => {
 
 
 
-  const donationsPercent = (100* total) / (total + myTotal)
-  const myDonationsPercent = (100* myTotal) / (total + myTotal)
+  const donationsPercent = 100 - (myTotal / total) *100
+  const myDonationsPercent = (myTotal / total) *100
   const data = [
     { key: "Total Donations", value: donationsPercent },
     { key: "Your Donations", value: myDonationsPercent },
